@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="68062" started-at="2019-09-17T12:23:56Z" finished-at="2019-09-17T12:25:04Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="68062" started-at="2019-09-17T12:23:56Z" finished-at="2019-09-17T12:25:04Z">
+      <class name="com.qa.hotpot.tests.ContactsPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hotpot.tests.ContactsPageTest@28d25987]" name="setUp" is-config="true" duration-ms="28329" started-at="2019-09-17T12:23:56Z" finished-at="2019-09-17T12:24:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyContactsPageTitleTest()[pri:1, instance:com.qa.hotpot.tests.ContactsPageTest@28d25987]" name="verifyContactsPageTitleTest" duration-ms="662" started-at="2019-09-17T12:24:25Z" finished-at="2019-09-17T12:24:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactsPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hotpot.tests.ContactsPageTest@28d25987]" name="tearDown" is-config="true" duration-ms="1371" started-at="2019-09-17T12:24:25Z" finished-at="2019-09-17T12:24:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hotpot.tests.ContactsPageTest@28d25987]" name="setUp" is-config="true" duration-ms="24115" started-at="2019-09-17T12:24:27Z" finished-at="2019-09-17T12:24:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createNewContactTest()[pri:2, instance:com.qa.hotpot.tests.ContactsPageTest@28d25987]" name="createNewContactTest" duration-ms="12201" started-at="2019-09-17T12:24:51Z" finished-at="2019-09-17T12:25:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewContactTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hotpot.tests.ContactsPageTest@28d25987]" name="tearDown" is-config="true" duration-ms="1351" started-at="2019-09-17T12:25:03Z" finished-at="2019-09-17T12:25:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.hotpot.tests.ContactsPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
