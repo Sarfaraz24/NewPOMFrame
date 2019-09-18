@@ -28,7 +28,8 @@ public class LoginPFTest {
 	}
 	
 	@Test
-	public void loginTest(){
+	public void loginTest()
+	{
 		loginPagePF.doLogin(prop.getProperty("username"), prop.getProperty("password"));
 	}
 
