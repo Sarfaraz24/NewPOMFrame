@@ -7,6 +7,8 @@ import com.qa.hotpot.base.BasePage;
 import com.qa.hotpot.util.Constants;
 import com.qa.hotpot.util.ElementUtil;
 
+import io.qameta.allure.Step;
+
 public class LoginPage extends BasePage {
 	WebDriver driver;
 	ElementUtil elementUtil;
@@ -21,7 +23,7 @@ public class LoginPage extends BasePage {
 		this.driver=driver;
 		 elementUtil=new ElementUtil(driver);
 	}
-	
+	@Step("getting login page title")
 	public String getLoginPageTitle()
 	{
 		elementUtil.waitForPageTitle(Constants.LOGIN_PAGE_TITLE);

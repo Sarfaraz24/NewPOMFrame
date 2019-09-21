@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Hot sopt test sanity suite" verbose="10">
+<suite name="Hot sopt test sanity suite" verbose="3">
+	<listeners>
+		<listener class-name="com.qa.hotpot.listeners.ExtentReportListener" />
+		<listener class-name="com.qa.hotpot.listeners.TestAllureListener" />
+
+	</listeners>
   <test thread-count="5" name="Hot spot sanity test">
     <classes>
       <class name="com.qa.hotpot.tests.LoginTest"/>
-      <class name="com.qa.hotpot.tests.HomePageTest"/>
+	  <class name="com.qa.hotpot.tests.HomePageTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

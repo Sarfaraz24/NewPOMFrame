@@ -14,6 +14,7 @@ import com.qa.hotpot.cases.ContactsPage;
 import com.qa.hotpot.cases.HomePage;
 import com.qa.hotpot.cases.LoginPage;
 import com.qa.hotpot.util.Constants;
+import com.qa.hotpot.util.ExcelUtil;
 
 public class ContactsPageTest {
 
@@ -41,16 +42,15 @@ public class ContactsPageTest {
 		Assert.assertEquals(title, Constants.CONTACTS_PAGE_TITLE);
 	}
 	
-	
-//	@DataProvider()
-//	public Object[][] getContactData(){
-//		Object data[][] = ExcelUtil.getTestData("createcontact");
-//		return data;
-//	}
+	@DataProvider()
+	public Object[][] getContactData(){
+		Object data[][] = ExcelUtil.getTestData("createcontact");
+		return data;
+	}
 
-	@Test(priority = 2)
-	public void createNewContactTest() {
-		contactsPage.createNewContact("asasa.com", "asa", "roza", "engineer");
+	@Test(priority = 2, dataProvider="getContactData")
+	public void createNewContactTest(String email, String firstname, String lastname, String jobTitle) {
+		contactsPage.createNewContact(email, firstname, lastname, jobTitle);
 	}
 
 	@AfterMethod

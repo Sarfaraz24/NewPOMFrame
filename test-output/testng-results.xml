@@ -1,33 +1,157 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="68062" started-at="2019-09-17T12:23:56Z" finished-at="2019-09-17T12:25:04Z">
+  <suite name="Default suite" duration-ms="265411" started-at="2019-09-21T19:28:59Z" finished-at="2019-09-21T19:33:24Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="68062" started-at="2019-09-17T12:23:56Z" finished-at="2019-09-17T12:25:04Z">
+    <test name="Default test" duration-ms="265411" started-at="2019-09-21T19:28:59Z" finished-at="2019-09-21T19:33:24Z">
       <class name="com.qa.hotpot.tests.ContactsPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hotpot.tests.ContactsPageTest@28d25987]" name="setUp" is-config="true" duration-ms="28329" started-at="2019-09-17T12:23:56Z" finished-at="2019-09-17T12:24:25Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hotpot.tests.ContactsPageTest@2c1b9e4b]" name="setUp" is-config="true" duration-ms="23829" started-at="2019-09-21T19:28:59Z" finished-at="2019-09-21T19:29:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyContactsPageTitleTest()[pri:1, instance:com.qa.hotpot.tests.ContactsPageTest@28d25987]" name="verifyContactsPageTitleTest" duration-ms="662" started-at="2019-09-17T12:24:25Z" finished-at="2019-09-17T12:24:25Z">
+        <test-method status="PASS" signature="verifyContactsPageTitleTest()[pri:1, instance:com.qa.hotpot.tests.ContactsPageTest@2c1b9e4b]" name="verifyContactsPageTitleTest" duration-ms="342" started-at="2019-09-21T19:29:23Z" finished-at="2019-09-21T19:29:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyContactsPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hotpot.tests.ContactsPageTest@28d25987]" name="tearDown" is-config="true" duration-ms="1371" started-at="2019-09-17T12:24:25Z" finished-at="2019-09-17T12:24:27Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hotpot.tests.ContactsPageTest@2c1b9e4b]" name="tearDown" is-config="true" duration-ms="1415" started-at="2019-09-21T19:29:24Z" finished-at="2019-09-21T19:29:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hotpot.tests.ContactsPageTest@28d25987]" name="setUp" is-config="true" duration-ms="24115" started-at="2019-09-17T12:24:27Z" finished-at="2019-09-17T12:24:51Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hotpot.tests.ContactsPageTest@2c1b9e4b]" name="setUp" is-config="true" duration-ms="20743" started-at="2019-09-21T19:29:27Z" finished-at="2019-09-21T19:29:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="createNewContactTest()[pri:2, instance:com.qa.hotpot.tests.ContactsPageTest@28d25987]" name="createNewContactTest" duration-ms="12201" started-at="2019-09-17T12:24:51Z" finished-at="2019-09-17T12:25:03Z">
+        <test-method status="PASS" signature="createNewContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.hotpot.tests.ContactsPageTest@2c1b9e4b]" name="createNewContactTest" duration-ms="32374" started-at="2019-09-21T19:29:48Z" data-provider="getContactData" finished-at="2019-09-21T19:30:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hemal@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hemal]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[LN1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[QA Eng]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewContactTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hotpot.tests.ContactsPageTest@28d25987]" name="tearDown" is-config="true" duration-ms="1351" started-at="2019-09-17T12:25:03Z" finished-at="2019-09-17T12:25:04Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hotpot.tests.ContactsPageTest@2c1b9e4b]" name="tearDown" is-config="true" duration-ms="1467" started-at="2019-09-21T19:30:20Z" finished-at="2019-09-21T19:30:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hotpot.tests.ContactsPageTest@2c1b9e4b]" name="setUp" is-config="true" duration-ms="20124" started-at="2019-09-21T19:30:22Z" finished-at="2019-09-21T19:30:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createNewContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.hotpot.tests.ContactsPageTest@2c1b9e4b]" name="createNewContactTest" duration-ms="39460" started-at="2019-09-21T19:30:42Z" data-provider="getContactData" finished-at="2019-09-21T19:31:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Naveen@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Naveen]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[LN2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[QA Lead]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewContactTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hotpot.tests.ContactsPageTest@2c1b9e4b]" name="tearDown" is-config="true" duration-ms="2433" started-at="2019-09-21T19:31:21Z" finished-at="2019-09-21T19:31:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hotpot.tests.ContactsPageTest@2c1b9e4b]" name="setUp" is-config="true" duration-ms="24774" started-at="2019-09-21T19:31:24Z" finished-at="2019-09-21T19:31:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createNewContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.hotpot.tests.ContactsPageTest@2c1b9e4b]" name="createNewContactTest" duration-ms="32230" started-at="2019-09-21T19:31:48Z" data-provider="getContactData" finished-at="2019-09-21T19:32:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shalu@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shalu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[LN3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dev Eng]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewContactTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hotpot.tests.ContactsPageTest@2c1b9e4b]" name="tearDown" is-config="true" duration-ms="1857" started-at="2019-09-21T19:32:21Z" finished-at="2019-09-21T19:32:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hotpot.tests.ContactsPageTest@2c1b9e4b]" name="setUp" is-config="true" duration-ms="23583" started-at="2019-09-21T19:32:23Z" finished-at="2019-09-21T19:32:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createNewContactTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.hotpot.tests.ContactsPageTest@2c1b9e4b]" name="createNewContactTest" duration-ms="36800" started-at="2019-09-21T19:32:46Z" data-provider="getContactData" finished-at="2019-09-21T19:33:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Irina@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Irina]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[LN4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dev Lead]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewContactTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hotpot.tests.ContactsPageTest@2c1b9e4b]" name="tearDown" is-config="true" duration-ms="1393" started-at="2019-09-21T19:33:23Z" finished-at="2019-09-21T19:33:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -9,6 +9,11 @@ import com.qa.hotpot.base.BasePage;
 import com.qa.hotpot.cases.LoginPage;
 import com.qa.hotpot.util.Constants;
 
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
+
 public class LoginTest {
 
 	WebDriver driver;
@@ -25,6 +30,9 @@ public class LoginTest {
 	}
 
 	@Test(priority=1, description="login testnwith correct username and password")
+	@Severity(SeverityLevel.MINOR)
+	@Description("This is description")
+	@Story("This is not story")
 	public void loginTest() throws InterruptedException {
 		loginPage.doLogin(prop.getProperty("username"), prop.getProperty("password"));
 	}

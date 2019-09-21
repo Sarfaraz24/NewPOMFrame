@@ -11,11 +11,11 @@ public class ContactsPage {
 	ElementUtil elementUtil;
 
 	By createContactButton = By.xpath("//span[text()='Create contact']");
-	By createContactFormButton = By.xpath("//li//span[text()='Create contact']");
-	By email = By.id("uid-ctrl-1");
-	By firstName = By.id("uid-ctrl-2");
-	By lastName = By.id("uid-ctrl-3");
-	By jobTitle = By.id("uid-ctrl-5");
+	By createContactFormButton = By.xpath(".private-loading-button__content.private-button--internal-spacing");
+	By email = By.id("UIFormControl-7");
+	By firstName = By.id("UIFormControl-8");
+	By lastName = By.id("UIFormControl-10");
+	By jobTitle = By.id("UIFormControl-14");
 
 	public ContactsPage(WebDriver driver) {
 		this.driver = driver;
