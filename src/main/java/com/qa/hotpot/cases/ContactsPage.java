@@ -1,5 +1,4 @@
 package com.qa.hotpot.cases;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
