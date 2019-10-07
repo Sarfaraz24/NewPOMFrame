@@ -2,54 +2,54 @@
 <testng-results skipped="0" failed="2" ignored="0" total="5" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Hot sopt test sanity suite" duration-ms="104490" started-at="2019-09-19T21:27:56Z" finished-at="2019-09-19T21:29:40Z">
+  <suite name="Hot sopt test sanity suite" duration-ms="98107" started-at="2019-10-07T10:05:00Z" finished-at="2019-10-07T10:06:38Z">
     <groups>
     </groups>
-    <test name="Hot spot sanity test" duration-ms="104490" started-at="2019-09-19T21:27:56Z" finished-at="2019-09-19T21:29:40Z">
+    <test name="Hot spot sanity test" duration-ms="98107" started-at="2019-10-07T10:05:00Z" finished-at="2019-10-07T10:06:38Z">
       <class name="com.qa.hotpot.tests.LoginTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hotpot.tests.LoginTest@75201592]" name="setUp" is-config="true" duration-ms="9034" started-at="2019-09-19T21:27:56Z" finished-at="2019-09-19T21:28:05Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hotpot.tests.LoginTest@7726e185]" name="setUp" is-config="true" duration-ms="6490" started-at="2019-10-07T10:05:00Z" finished-at="2019-10-07T10:05:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest()[pri:1, instance:com.qa.hotpot.tests.LoginTest@75201592]" name="loginTest" duration-ms="8559" started-at="2019-09-19T21:28:05Z" description="login testnwith correct username and password" finished-at="2019-09-19T21:28:14Z">
+        <test-method status="PASS" signature="loginTest()[pri:1, instance:com.qa.hotpot.tests.LoginTest@7726e185]" name="loginTest" duration-ms="8555" started-at="2019-10-07T10:05:07Z" description="login testnwith correct username and password" finished-at="2019-10-07T10:05:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hotpot.tests.LoginTest@75201592]" name="tearDown" is-config="true" duration-ms="1255" started-at="2019-09-19T21:28:14Z" finished-at="2019-09-19T21:28:15Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hotpot.tests.LoginTest@7726e185]" name="tearDown" is-config="true" duration-ms="1141" started-at="2019-10-07T10:05:15Z" finished-at="2019-10-07T10:05:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hotpot.tests.LoginTest@75201592]" name="setUp" is-config="true" duration-ms="7133" started-at="2019-09-19T21:28:38Z" finished-at="2019-09-19T21:28:45Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hotpot.tests.LoginTest@7726e185]" name="setUp" is-config="true" duration-ms="4017" started-at="2019-10-07T10:05:40Z" finished-at="2019-10-07T10:05:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginPageTitleTest()[pri:2, instance:com.qa.hotpot.tests.LoginTest@75201592]" name="loginPageTitleTest" duration-ms="5291" started-at="2019-09-19T21:28:45Z" description="login page title test" finished-at="2019-09-19T21:28:51Z">
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:2, instance:com.qa.hotpot.tests.LoginTest@7726e185]" name="loginPageTitleTest" duration-ms="7431" started-at="2019-10-07T10:05:44Z" description="login page title test" finished-at="2019-10-07T10:05:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hotpot.tests.LoginTest@75201592]" name="tearDown" is-config="true" duration-ms="1770" started-at="2019-09-19T21:28:51Z" finished-at="2019-09-19T21:28:53Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hotpot.tests.LoginTest@7726e185]" name="tearDown" is-config="true" duration-ms="1151" started-at="2019-10-07T10:05:51Z" finished-at="2019-10-07T10:05:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.hotpot.tests.LoginTest -->
       <class name="com.qa.hotpot.tests.HomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hotpot.tests.HomePageTest@7726e185]" name="setUp" is-config="true" duration-ms="21439" started-at="2019-09-19T21:28:15Z" finished-at="2019-09-19T21:28:37Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hotpot.tests.HomePageTest@aa5455e]" name="setUp" is-config="true" duration-ms="21936" started-at="2019-10-07T10:05:16Z" finished-at="2019-10-07T10:05:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:com.qa.hotpot.tests.HomePageTest@7726e185]" name="verifyHomePageTitleTest" duration-ms="99" started-at="2019-09-19T21:28:37Z" finished-at="2019-09-19T21:28:37Z">
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:com.qa.hotpot.tests.HomePageTest@aa5455e]" name="verifyHomePageTitleTest" duration-ms="19" started-at="2019-10-07T10:05:38Z" finished-at="2019-10-07T10:05:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hotpot.tests.HomePageTest@7726e185]" name="tearDown" is-config="true" duration-ms="1312" started-at="2019-09-19T21:28:37Z" finished-at="2019-09-19T21:28:38Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hotpot.tests.HomePageTest@aa5455e]" name="tearDown" is-config="true" duration-ms="1176" started-at="2019-10-07T10:05:38Z" finished-at="2019-10-07T10:05:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hotpot.tests.HomePageTest@7726e185]" name="setUp" is-config="true" duration-ms="22220" started-at="2019-09-19T21:28:53Z" finished-at="2019-09-19T21:29:15Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hotpot.tests.HomePageTest@aa5455e]" name="setUp" is-config="true" duration-ms="21772" started-at="2019-10-07T10:05:52Z" finished-at="2019-10-07T10:06:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="verifyHomePageHeaderTest()[pri:2, instance:com.qa.hotpot.tests.HomePageTest@7726e185]" name="verifyHomePageHeaderTest" duration-ms="675" started-at="2019-09-19T21:29:15Z" finished-at="2019-09-19T21:29:16Z">
+        <test-method status="FAIL" signature="verifyHomePageHeaderTest()[pri:2, instance:com.qa.hotpot.tests.HomePageTest@aa5455e]" name="verifyHomePageHeaderTest" duration-ms="413" started-at="2019-10-07T10:06:14Z" finished-at="2019-10-07T10:06:15Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Set up your HubSpot account] but found []]]>
@@ -97,15 +97,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePageHeaderTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hotpot.tests.HomePageTest@7726e185]" name="tearDown" is-config="true" duration-ms="1319" started-at="2019-09-19T21:29:16Z" finished-at="2019-09-19T21:29:17Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hotpot.tests.HomePageTest@aa5455e]" name="tearDown" is-config="true" duration-ms="1233" started-at="2019-10-07T10:06:15Z" finished-at="2019-10-07T10:06:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hotpot.tests.HomePageTest@7726e185]" name="setUp" is-config="true" duration-ms="21404" started-at="2019-09-19T21:29:17Z" finished-at="2019-09-19T21:29:38Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hotpot.tests.HomePageTest@aa5455e]" name="setUp" is-config="true" duration-ms="20490" started-at="2019-10-07T10:06:16Z" finished-at="2019-10-07T10:06:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="verifyLoggedInUserAccountTest()[pri:3, instance:com.qa.hotpot.tests.HomePageTest@7726e185]" name="verifyLoggedInUserAccountTest" duration-ms="631" started-at="2019-09-19T21:29:38Z" finished-at="2019-09-19T21:29:39Z">
+        <test-method status="FAIL" signature="verifyLoggedInUserAccountTest()[pri:3, instance:com.qa.hotpot.tests.HomePageTest@aa5455e]" name="verifyLoggedInUserAccountTest" duration-ms="422" started-at="2019-10-07T10:06:36Z" finished-at="2019-10-07T10:06:37Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -151,7 +151,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoggedInUserAccountTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hotpot.tests.HomePageTest@7726e185]" name="tearDown" is-config="true" duration-ms="1339" started-at="2019-09-19T21:29:39Z" finished-at="2019-09-19T21:29:40Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hotpot.tests.HomePageTest@aa5455e]" name="tearDown" is-config="true" duration-ms="1200" started-at="2019-10-07T10:06:37Z" finished-at="2019-10-07T10:06:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
