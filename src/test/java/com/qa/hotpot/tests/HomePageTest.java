@@ -35,20 +35,20 @@ public class HomePageTest {
 		Assert.assertEquals(title, Constants.HOME_PAGE_TITLE);
 	}
 
-	@Test(priority = 2)
-	public void verifyHomePageHeaderTest() {
-		String headerValue = homePage.getHomePageHeaderValue();
-		System.out.println("home page header is: " + headerValue);
-		Assert.assertEquals(headerValue, Constants.HOME_PAGE_HEADER);
-	}
-
-	@Test(priority = 3)
-	public void verifyLoggedInUserAccountTest() {
-		String accountName = homePage.getLoggedInAcoountName();
-		System.out.println("logged in account name is: " + accountName);
-		Assert.assertTrue(homePage.verifyLoggedInAcoountName());
-		Assert.assertEquals(accountName, prop.getProperty("accountname"));
-	}
+//	@Test(priority = 2)
+//	public void verifyHomePageHeaderTest() {
+//		String headerValue = homePage.getHomePageHeaderValue();
+//		System.out.println("home page header is: " + headerValue);
+//		Assert.assertEquals(headerValue, Constants.HOME_PAGE_HEADER);
+//	}
+//
+//	@Test(priority = 3)
+//	public void verifyLoggedInUserAccountTest() {
+//		String accountName = homePage.getLoggedInAcoountName();
+//		System.out.println("logged in account name is: " + accountName);
+//		Assert.assertTrue(homePage.verifyLoggedInAcoountName());
+//		Assert.assertEquals(accountName, prop.getProperty("accountname"));
+//	}
 	
 	
 	@AfterMethod
