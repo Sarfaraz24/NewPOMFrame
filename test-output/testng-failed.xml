@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [Hot sopt test sanity suite]">
+  <listeners>
+    <listener class-name="com.qa.hotpot.listeners.ExtentReportListener"/>
+    <listener class-name="com.qa.hotpot.listeners.TestAllureListener"/>
+  </listeners>
+  <test thread-count="5" verbose="3" name="Hot spot sanity test(failed)">
     <classes>
-      <class name="com.qa.hotpot.tests.ContactsPageTest">
+      <class name="com.qa.hotpot.tests.HomePageTest">
         <methods>
-          <include name="createNewContactTest"/>
-          <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="verifyLoggedInUserAccountTest"/>
+          <include name="tearDown"/>
+          <include name="verifyHomePageHeaderTest"/>
         </methods>
-      </class> <!-- com.qa.hotpot.tests.ContactsPageTest -->
+      </class> <!-- com.qa.hotpot.tests.HomePageTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Hot spot sanity test(failed) -->
+</suite> <!-- Failed suite [Hot sopt test sanity suite] -->
